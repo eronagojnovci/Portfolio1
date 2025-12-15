@@ -1,0 +1,61 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@400;600;700;800&display=swap');
+
+/* Design tokens / CSS custom properties */
+:root {
+  --display-font: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  /* Typography scale */
+  --font-size-body: 16px;
+  --font-size-heading: 44px;
+  --font-size-subtitle: 16px;
+  --line-height-body: 1.6;
+  --line-height-heading: 1.2;
+  --primary-color: #000000; /* page background */
+  --secondary-color: #ffffff; /* headings / strong text */
+  --text-color: #d7e6f2; /* body text (light) */
+  --card-bg: #0b1220; /* dark card */
+  --card-hover: #111827;
+  --footer-bg: #000000;
+  --footer-text: #cbd5e1;
+  --accent-color: rgba(187, 119, 87, 0.518); /* cyan */
+  --accent-hover: rgba(219, 167, 143, 0.518); /* lighter cyan for hover */
+}
+
+/* Global styles */
+body {
+  font-family: var(--font-family);
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+  align-self: center;
+  align-content: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--secondary-color);
+  font-size: var(--font-size-heading);
+  line-height: var(--line-height-heading);
+}
+
+a {
+  color: var(--accent-color);
+}
+
+a:hover {
+  color: var(--accent-hover);
+}
+
+footer {
+  background-color: var(--footer-bg);
+  color: var(--footer-text);
+}
+
+.card {
+  background-color: var(--card-bg);
+}
+
+.card:hover {
+  background-color: var(--card-hover);
+}
