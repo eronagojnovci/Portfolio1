@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../styles/main.css";
+import contactImage from "../assets/contact.png";
 
 const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
 const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
@@ -93,7 +94,7 @@ console.log("Payload to EmailJS:", payload);
         </div>
       </div>
       <div className="contact-right">
-        <img src="/src/assets/contact.png" alt="Contact" className="contact-photo" />
+        <img src={contactImage} alt="Contact" className="contact-photo" />
       </div>
     </section>
   );
