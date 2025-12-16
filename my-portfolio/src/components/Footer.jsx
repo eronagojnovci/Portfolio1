@@ -4,7 +4,9 @@ import logo from '../assets/logo.jpg';
 const Footer = () => {
   return (
     <footer className="footer">
-      <img src={logo} alt="Logo" className="footer-logo" />
+     <a href="https://eronegojnovci.netlify.app/" target="_blank" rel="noopener noreferrer">
+    <img src={logo} alt="Logo" className="logo-img" />
+  </a>
       <p>© 2025 Erona Gojnovci. All rights reserved.</p>
       <div className="social-links">
         <a href="https://www.linkedin.com/in/eron%C3%AB-gojnovci-b84109322/" target="_blank" rel="noopener noreferrer">LinkedIn</a>

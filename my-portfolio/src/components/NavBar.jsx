@@ -13,9 +13,12 @@ const NavBar = () => {
   return (
     <header className="site-nav">
       <div className="nav-inner">
-        <div className="nav-left">
-          <img src={logo} alt="Logo" className="logo-img" /> <a href="https://eronegojnovci.netlify.app/"></a>
-        </div>
+       <div className="nav-left">
+  <a href="https://eronegojnovci.netlify.app/" target="_blank" rel="noopener noreferrer">
+    <img src={logo} alt="Logo" className="logo-img" />
+  </a>
+</div>
+
 
         <button
           className={`nav-toggle ${open ? 'is-open' : ''}`}
