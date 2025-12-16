@@ -14,7 +14,7 @@ const NavBar = () => {
     <header className="site-nav">
       <div className="nav-inner">
         <div className="nav-left">
-          <img src={logo} alt="Logo" className="logo-img" />
+          <img src={logo} alt="Logo" className="logo-img" /> <a href="https://eronegojnovci.netlify.app/"></a>
         </div>
 
         <button
