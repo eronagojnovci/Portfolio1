@@ -30,7 +30,7 @@ const NavBar = () => {
 
         <div className={`nav-right ${open ? 'is-open' : ''}`}>
           <nav className="nav-links" onClick={closeMenu}>
-            <a href="#Hero">Home</a>
+            <a href="#hero">Home</a>
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
