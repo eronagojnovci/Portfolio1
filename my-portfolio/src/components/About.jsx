@@ -21,7 +21,7 @@ import { BiCodeAlt } from "react-icons/bi";
 
 const About = () => {
   return (
-    <section className="about-section" aria-labelledby="about-heading">
+    <section className="about-section" id="about" aria-labelledby="about-heading">
       <div className="about-inner">
         {/* Main profile */}
         <div className="profile-card">

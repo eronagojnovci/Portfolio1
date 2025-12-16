@@ -30,7 +30,7 @@ const projectsData = [
 
 const Projects = () => {
   return (
-    <section className="projects-section">
+    <section id="projects" className="projects-section">
       <div className="projects-header">
         <h2 className="projects-title">Find my projects</h2>
         <div className="projects-count">Here</div>

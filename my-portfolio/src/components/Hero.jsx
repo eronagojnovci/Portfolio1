@@ -5,7 +5,7 @@ import "../styles/main.css";
 
 const Hero = () => {
   return (
-    <section className="hero">
+    <section id="hero" className="hero">
       <div className="hero-year" aria-hidden>ERONË'S</div>
 
       <div className="hero-inner">
